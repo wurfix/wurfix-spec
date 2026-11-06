@@ -1,0 +1,732 @@
+{
+ "name": "Würfix Canon",
+ "version": "1.0",
+ "author": "Pablo Gumucio del Pozo",
+ "orcid": "https://orcid.org/0009-0008-5608-107X",
+ "source": "https://wurfix.com/llms-full.txt",
+ "definition": {
+  "es": "Código de tres cifras: días por semana × ejercicios por sesión × series por ejercicio. El producto es el volumen semanal en series.",
+  "en": "Three-digit code: days per week × exercises per session × sets per exercise. The product is the weekly volume in sets."
+ },
+ "rules": {
+  "canon_digit_range": [
+   3,
+   6
+  ],
+  "volume_is": "whole-body, not per muscle group",
+  "equivalent_codes": "same product = same weekly sets, not guaranteed same results",
+  "adaptation": "1–25 weekly sets and extended codes (any 1, or a 2 in exercises or sets, or two-day codes not meeting the rule) are prescribed by a professional, not generated",
+  "two_day_rule": "2 days, at least 4 exercises and at least 27 weekly sets"
+ },
+ "levels": [
+  {
+   "es": "Iniciación",
+   "en": "Foundation",
+   "min_sets": 27,
+   "max_sets": 60,
+   "codes": 19
+  },
+  {
+   "es": "Hábito",
+   "en": "Habit",
+   "min_sets": 64,
+   "max_sets": 120,
+   "codes": 34
+  },
+  {
+   "es": "Avanzado",
+   "en": "Advanced",
+   "min_sets": 125,
+   "max_sets": 180,
+   "codes": 10
+  },
+  {
+   "es": "Rango máximo",
+   "en": "Max Range",
+   "min_sets": 216,
+   "max_sets": 216,
+   "codes": 1
+  }
+ ],
+ "canon": [
+  {
+   "code": "333",
+   "days": 3,
+   "exercises": 3,
+   "sets": 3,
+   "weekly_sets": 27,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "334",
+   "days": 3,
+   "exercises": 3,
+   "sets": 4,
+   "weekly_sets": 36,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "343",
+   "days": 3,
+   "exercises": 4,
+   "sets": 3,
+   "weekly_sets": 36,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "433",
+   "days": 4,
+   "exercises": 3,
+   "sets": 3,
+   "weekly_sets": 36,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "335",
+   "days": 3,
+   "exercises": 3,
+   "sets": 5,
+   "weekly_sets": 45,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "353",
+   "days": 3,
+   "exercises": 5,
+   "sets": 3,
+   "weekly_sets": 45,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "533",
+   "days": 5,
+   "exercises": 3,
+   "sets": 3,
+   "weekly_sets": 45,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "344",
+   "days": 3,
+   "exercises": 4,
+   "sets": 4,
+   "weekly_sets": 48,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "434",
+   "days": 4,
+   "exercises": 3,
+   "sets": 4,
+   "weekly_sets": 48,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "443",
+   "days": 4,
+   "exercises": 4,
+   "sets": 3,
+   "weekly_sets": 48,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "336",
+   "days": 3,
+   "exercises": 3,
+   "sets": 6,
+   "weekly_sets": 54,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "363",
+   "days": 3,
+   "exercises": 6,
+   "sets": 3,
+   "weekly_sets": 54,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "633",
+   "days": 6,
+   "exercises": 3,
+   "sets": 3,
+   "weekly_sets": 54,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "345",
+   "days": 3,
+   "exercises": 4,
+   "sets": 5,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "354",
+   "days": 3,
+   "exercises": 5,
+   "sets": 4,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "435",
+   "days": 4,
+   "exercises": 3,
+   "sets": 5,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "453",
+   "days": 4,
+   "exercises": 5,
+   "sets": 3,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "534",
+   "days": 5,
+   "exercises": 3,
+   "sets": 4,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "543",
+   "days": 5,
+   "exercises": 4,
+   "sets": 3,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "444",
+   "days": 4,
+   "exercises": 4,
+   "sets": 4,
+   "weekly_sets": 64,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "346",
+   "days": 3,
+   "exercises": 4,
+   "sets": 6,
+   "weekly_sets": 72,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "364",
+   "days": 3,
+   "exercises": 6,
+   "sets": 4,
+   "weekly_sets": 72,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "436",
+   "days": 4,
+   "exercises": 3,
+   "sets": 6,
+   "weekly_sets": 72,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "463",
+   "days": 4,
+   "exercises": 6,
+   "sets": 3,
+   "weekly_sets": 72,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "634",
+   "days": 6,
+   "exercises": 3,
+   "sets": 4,
+   "weekly_sets": 72,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "643",
+   "days": 6,
+   "exercises": 4,
+   "sets": 3,
+   "weekly_sets": 72,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "355",
+   "days": 3,
+   "exercises": 5,
+   "sets": 5,
+   "weekly_sets": 75,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "535",
+   "days": 5,
+   "exercises": 3,
+   "sets": 5,
+   "weekly_sets": 75,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "553",
+   "days": 5,
+   "exercises": 5,
+   "sets": 3,
+   "weekly_sets": 75,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "445",
+   "days": 4,
+   "exercises": 4,
+   "sets": 5,
+   "weekly_sets": 80,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "454",
+   "days": 4,
+   "exercises": 5,
+   "sets": 4,
+   "weekly_sets": 80,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "544",
+   "days": 5,
+   "exercises": 4,
+   "sets": 4,
+   "weekly_sets": 80,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "356",
+   "days": 3,
+   "exercises": 5,
+   "sets": 6,
+   "weekly_sets": 90,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "365",
+   "days": 3,
+   "exercises": 6,
+   "sets": 5,
+   "weekly_sets": 90,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "536",
+   "days": 5,
+   "exercises": 3,
+   "sets": 6,
+   "weekly_sets": 90,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "563",
+   "days": 5,
+   "exercises": 6,
+   "sets": 3,
+   "weekly_sets": 90,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "635",
+   "days": 6,
+   "exercises": 3,
+   "sets": 5,
+   "weekly_sets": 90,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "653",
+   "days": 6,
+   "exercises": 5,
+   "sets": 3,
+   "weekly_sets": 90,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "446",
+   "days": 4,
+   "exercises": 4,
+   "sets": 6,
+   "weekly_sets": 96,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "464",
+   "days": 4,
+   "exercises": 6,
+   "sets": 4,
+   "weekly_sets": 96,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "644",
+   "days": 6,
+   "exercises": 4,
+   "sets": 4,
+   "weekly_sets": 96,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "455",
+   "days": 4,
+   "exercises": 5,
+   "sets": 5,
+   "weekly_sets": 100,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "545",
+   "days": 5,
+   "exercises": 4,
+   "sets": 5,
+   "weekly_sets": 100,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "554",
+   "days": 5,
+   "exercises": 5,
+   "sets": 4,
+   "weekly_sets": 100,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "366",
+   "days": 3,
+   "exercises": 6,
+   "sets": 6,
+   "weekly_sets": 108,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "636",
+   "days": 6,
+   "exercises": 3,
+   "sets": 6,
+   "weekly_sets": 108,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "663",
+   "days": 6,
+   "exercises": 6,
+   "sets": 3,
+   "weekly_sets": 108,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "456",
+   "days": 4,
+   "exercises": 5,
+   "sets": 6,
+   "weekly_sets": 120,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "465",
+   "days": 4,
+   "exercises": 6,
+   "sets": 5,
+   "weekly_sets": 120,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "546",
+   "days": 5,
+   "exercises": 4,
+   "sets": 6,
+   "weekly_sets": 120,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "564",
+   "days": 5,
+   "exercises": 6,
+   "sets": 4,
+   "weekly_sets": 120,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "645",
+   "days": 6,
+   "exercises": 4,
+   "sets": 5,
+   "weekly_sets": 120,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "654",
+   "days": 6,
+   "exercises": 5,
+   "sets": 4,
+   "weekly_sets": 120,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  },
+  {
+   "code": "555",
+   "days": 5,
+   "exercises": 5,
+   "sets": 5,
+   "weekly_sets": 125,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "466",
+   "days": 4,
+   "exercises": 6,
+   "sets": 6,
+   "weekly_sets": 144,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "646",
+   "days": 6,
+   "exercises": 4,
+   "sets": 6,
+   "weekly_sets": 144,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "664",
+   "days": 6,
+   "exercises": 6,
+   "sets": 4,
+   "weekly_sets": 144,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "556",
+   "days": 5,
+   "exercises": 5,
+   "sets": 6,
+   "weekly_sets": 150,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "565",
+   "days": 5,
+   "exercises": 6,
+   "sets": 5,
+   "weekly_sets": 150,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "655",
+   "days": 6,
+   "exercises": 5,
+   "sets": 5,
+   "weekly_sets": 150,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "566",
+   "days": 5,
+   "exercises": 6,
+   "sets": 6,
+   "weekly_sets": 180,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "656",
+   "days": 6,
+   "exercises": 5,
+   "sets": 6,
+   "weekly_sets": 180,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "665",
+   "days": 6,
+   "exercises": 6,
+   "sets": 5,
+   "weekly_sets": 180,
+   "level_es": "Avanzado",
+   "level_en": "Advanced"
+  },
+  {
+   "code": "666",
+   "days": 6,
+   "exercises": 6,
+   "sets": 6,
+   "weekly_sets": 216,
+   "level_es": "Rango máximo",
+   "level_en": "Max Range"
+  }
+ ],
+ "two_day_codes": [
+  {
+   "code": "244",
+   "days": 2,
+   "exercises": 4,
+   "sets": 4,
+   "weekly_sets": 32,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "245",
+   "days": 2,
+   "exercises": 4,
+   "sets": 5,
+   "weekly_sets": 40,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "246",
+   "days": 2,
+   "exercises": 4,
+   "sets": 6,
+   "weekly_sets": 48,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "253",
+   "days": 2,
+   "exercises": 5,
+   "sets": 3,
+   "weekly_sets": 30,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "254",
+   "days": 2,
+   "exercises": 5,
+   "sets": 4,
+   "weekly_sets": 40,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "255",
+   "days": 2,
+   "exercises": 5,
+   "sets": 5,
+   "weekly_sets": 50,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "256",
+   "days": 2,
+   "exercises": 5,
+   "sets": 6,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "263",
+   "days": 2,
+   "exercises": 6,
+   "sets": 3,
+   "weekly_sets": 36,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "264",
+   "days": 2,
+   "exercises": 6,
+   "sets": 4,
+   "weekly_sets": 48,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "265",
+   "days": 2,
+   "exercises": 6,
+   "sets": 5,
+   "weekly_sets": 60,
+   "level_es": "Iniciación",
+   "level_en": "Foundation"
+  },
+  {
+   "code": "266",
+   "days": 2,
+   "exercises": 6,
+   "sets": 6,
+   "weekly_sets": 72,
+   "level_es": "Hábito",
+   "level_en": "Habit"
+  }
+ ],
+ "license": "CC BY-ND 4.0",
+ "doi": "10.5281/zenodo.24003271"
+}

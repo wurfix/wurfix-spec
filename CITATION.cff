@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use or refer to the Würfix system, please cite it as below."
+type: dataset
+title: "Würfix: technical specification of a coding system for strength training"
+version: "1.0"
+date-released: 2026-11-06
+doi: 10.5281/zenodo.24003271
+url: "https://wurfix.com"
+repository-code: "https://github.com/wurfix/wurfix-spec"
+license: CC-BY-ND-4.0
+authors:
+  - family-names: "Gumucio del Pozo"
+    given-names: "Pablo"
+    orcid: "https://orcid.org/0009-0008-5608-107X"
+keywords:
+  - Würfix
+  - strength training
+  - resistance training
+  - training volume
+  - weekly sets
+  - coding system
+abstract: "Würfix sums up the structure of a week of strength training in a three-digit code: days per week × exercises per session × sets per exercise. The product is the weekly volume in sets. It is a coding system, not a training method."
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24003271
+references:
+  - type: book
+    title: "La mejor rutina. ¿Seguro?"
+    authors:
+      - family-names: "Gumucio del Pozo"
+        given-names: "Pablo"
+    isbn: "978-84-09-94404-0"
